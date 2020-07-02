@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <head>
-  Proxy for Image Browser Module
+  <title>Proxy for Image Browser Module</title>
+  <script src="https://kit.fontawesome.com/ed35eb64ac.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <style>body{font-family: 'Montserrat', sans-serif;}</style>
 </head>
 <body>
-  <h1>Proxy Server</h1>
+  <div id="ImageBrowser"></div>
+  <div id = App></div>
+  <div id="similar"></div>
+  <div id="Review"></div>
+  <script crossorigin src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+  <!--  John's Service (Image Browser)  -->
+  <script src="http://localhost:3001/bundle.js"></script>
+  <!--  Shraya's Service (Customers ultimately bought...)  -->
+  <script src="http://localhost:3003/bundle.js"></script>
+  <!--  Kana's Service (Similar Products)  -->
+  <script src="http://localhost:3002/bundle.js"></script>
+  <!--  Joel's Service (Reviews)  -->
+  <script src="http://localhost:3004/bundle.js"></script>
 </body>
